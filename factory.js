@@ -21,10 +21,13 @@ const userFactory = new UserFactory();
 // Creación de los objetos de usuario
 const user1 = userFactory.createUser('Juan', 'admin');
 const user2 = userFactory.createUser('Pedro', 'user');
+const user3 = userFactory.createUser('Maria', 'user');
 
 console.log(user1);
 
 console.log(user2);
+
+console.log(user3);
 
 // Resultado:
 // User { name: 'Juan', type: 'admin' }
