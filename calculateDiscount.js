@@ -10,6 +10,12 @@ function calculateDiscount(userType, amount) {
     return amount; // Sin descuento
 }
 
+function promerio(amount) {
+  promedio = amount / 4;
+
+  return promedio;
+}
+
 module.exports = calculateDiscount;
 
 // Configurar el Proyecto para Jest
